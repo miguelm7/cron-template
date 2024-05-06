@@ -1,0 +1,9 @@
+#docker
+services:
+  cron-example: # container name
+    image: cron-example #setup image name and tag
+    build: . #locate at same dir as dockerfile 
+             #<./> relative to
+             #<../> on dir up
+             #</> root dir
+
